@@ -3,6 +3,7 @@ import ExpenseList from "./ExpenseList";
 import Summary from "./Summary";
 import ExpenseChart from "./ExpenseChart";
 import ExpenseFilter from "./ExpenseFilter";
+import Logo from '/logo.png'
 const Dashboard = () => {
   return (
   <div className="relative min-h-screen bg-linear-to-b from-zinc-950 via-zinc-950 to-zinc-900
@@ -16,9 +17,8 @@ const Dashboard = () => {
 
     {/* HEADER */}
     <div className="space-y-2 ml-4">
-      <h1 className="text-3xl font-semibold tracking-tight">
-        Expense Dashboard
-      </h1>
+      <img src={Logo} alt="logo" className="w-40" />
+     
       <p className="text-zinc-400 text-sm">
         Track, manage and analyze your spending
       </p>

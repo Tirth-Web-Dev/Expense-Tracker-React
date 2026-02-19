@@ -10,7 +10,14 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#AA336A", "#8884d8"];
+const COLORS = [
+  "#818CF8",
+  "#38BDF8",
+  "#4ADE80",
+  "#FACC15",
+  "#FB7185",
+  "#C084FC"
+];
 
 const ExpenseChart = () => {
   const { expenses } = useExpenses();
